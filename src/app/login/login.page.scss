@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+.loginRegister {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#titleLogin {
+    text-align: center;
+    padding-bottom: 4px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.formContainer {
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.cardContainer {
+    padding: 10px;
+}
+
+.inputItem, ion-item:first-child{
+    padding-bottom: 20px;
+}
+
+ion-card-title, ion-title, ion-button {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.fontLabel {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
+
+ion-input {
+    border-bottom: 1px solid var(--ion-color-primary);
+}
+
+.botonSinIngreso {
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+  
+  
+  
